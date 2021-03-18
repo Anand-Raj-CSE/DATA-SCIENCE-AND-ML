@@ -1,0 +1,23 @@
+Supervised Learning 
+-> Learns from labelled data 
+-> Generalises future data pediction from past experience without overfitting the data.{Training}
+-> Representation : There is a matrix which has x  values like x1,x2,x3..........xm and corresponding to every x1 there is another m*n matrix  which has 1st row as x1'1,x1'2,x1'3.........x1'n and there are m such rows.m-examples,n-features.
+
+-> Regression - Output is a continuous value.Housing/Stock/Price/CGPA.Work of module will be map a value from R^n to a value y which has some real values.R^n is a matrix x^i which has n faetures 
+
+
+-> Classification - Output belongs to one of the classes and has some descrete labels. If a particular person has a heart disease or not , is this a apple(class 1)/mango(class 2)/guava(class 3) , object classification - whaether an object belongs to which class.Model will map some values x will y where x belongs to R^n but the value of y will belong to any calss i.e. a set of classes belonging from 1 to k.
+
+
+Training data is given to algorithm and generates a hypothesis H and according top the hypothesis H on a given input data X(test) gives an output data Y(test) , Y is the prediction.Hypothesis is a function having some parameters.Our goal is to minimize the loss(missclassification)
+
+
+Read bout the hyperplane , multilevel classification
+
+Uses of Supervised learning in :
+Spam Detection ;
+Document Classification ;
+Natural Language Processing ;
+Image Classification and Detection(Self Driving Cars)
+Sequence Processing(Image / Music / Text / Speech)
+Prediction (House Pricing / Stock)
